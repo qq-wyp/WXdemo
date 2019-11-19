@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/tabBar/tabBar"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "我的第一个小程序",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#00f",
+    "position":"bottom",
+    "backgroundColor":"#dc0",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "index",
+      "iconPath": "static/index.png",
+      "selectedIconPath": "static/indexFull.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "cart",
+        "iconPath": "static/cart.png",
+        "selectedIconPath": "static/cartFull.png"
+      },
+      {
+        "pagePath": "pages/tabBar/tabBar",
+        "text": "tabBar",
+        "iconPath": "static/my.png",
+        "selectedIconPath": "static/myFull.png"
+      }
+    ]
+  }
+}
